@@ -285,3 +285,38 @@ element.style {
         }
  
 } 
+
+/* last responsive */
+
+@media screen and (min-width:360px) and (max-width: 852px) {
+    header{
+        width: 142%;
+    }
+    .menu a {
+        font-size: 22px;
+        padding: 0px 14px;
+    } 
+    .filter-gallary {
+        padding: 5px 76px;
+    }
+}
+
+
+/* extreme small view */  
+/* i make a changes */
+
+@media screen and (min-width:279px) and (max-width: 360px) {
+    header{
+        width: 122%;
+    }
+    .menu a {
+        font-size: 22px;
+        padding: 0px 14px;
+    } 
+    .filter-gallary {
+        padding: 5px 66px;
+    }
+    img {
+        width: 56%;
+    }
+}
